@@ -173,6 +173,25 @@ h2 {
   font-weight: 700;
 }
 
+/* ===========================
+   Resume
+=========================== */
+
+.profile-lead {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #222;
+  margin-bottom: 18px;
+}
+
+.core-skills {
+  margin: 14px 0 18px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #555;
+  letter-spacing: -0.01em;
+}
+
 @media print {
   body {
     background: #ffffff;

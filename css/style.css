@@ -204,3 +204,112 @@ h2 {
     padding: 32px;
   }
 }
+
+/* ===========================
+   Mobile
+=========================== */
+
+@media (max-width: 768px) {
+  .page {
+    width: calc(100% - 24px);
+    margin: 12px auto;
+    padding: 24px 18px;
+  }
+
+  .hero {
+    padding-bottom: 28px;
+    margin-bottom: 18px;
+  }
+
+  h1 {
+    font-size: 38px;
+    line-height: 1.08;
+    letter-spacing: -0.05em;
+  }
+
+  h2 {
+    font-size: 22px;
+    line-height: 1.25;
+  }
+
+  .subtitle {
+    font-size: 17px;
+    line-height: 1.45;
+  }
+
+  .note {
+    margin-top: 24px;
+    font-size: 13px;
+  }
+
+  .card {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    padding: 22px 0;
+  }
+
+  .section-label {
+    width: 34px;
+    height: 34px;
+    font-size: 11px;
+  }
+
+  .section-kicker {
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    line-height: 1.4;
+  }
+
+  .framework-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .framework-grid div {
+    padding: 14px 10px;
+    font-size: 13px;
+  }
+
+  .sample-card {
+    padding: 18px;
+  }
+
+  .sample-card h3 {
+    font-size: 22px;
+    line-height: 1.25;
+  }
+
+  .hypothesis-card {
+    padding: 20px 0;
+  }
+
+  .hypothesis-card p,
+  .profile-lead {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .core-skills {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 420px) {
+  .page {
+    width: calc(100% - 16px);
+    margin: 8px auto;
+    padding: 22px 14px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  .framework-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sample-card h3 {
+    font-size: 21px;
+  }
+}
